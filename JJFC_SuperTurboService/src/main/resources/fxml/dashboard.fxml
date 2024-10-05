@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="center" prefHeight="430.0" prefWidth="803.0" spacing="20" style="-fx-background-color: #F5F5F5;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.DashboardController">
+    <Label style="-fx-font-family: 'Arial Black'; -fx-font-size: 28; -fx-text-fill: #3d3a83; -fx-padding: 10;" text="JJFC Super Turbo Service" textFill="#3d3a83" />
+
+    <HBox alignment="center" spacing="15">
+        <Button fx:id="reservationButton" prefHeight="30.0" prefWidth="130.0" style="-fx-font-size: 14px; -fx-background-color: #00509E; -fx-text-fill: white;" text="Reservation" />
+        <Button fx:id="orderManagementButton" prefHeight="30.0" prefWidth="148.0" style="-fx-font-size: 14px; -fx-background-color: #00509E; -fx-text-fill: white;" text="Order Management" />
+        <Button fx:id="inventoryButton" prefHeight="30.0" prefWidth="171.0" style="-fx-font-size: 14px; -fx-background-color: #00509E; -fx-text-fill: white;" text="Inventory Management" />
+        <Button fx:id="paymentButton" prefWidth="120" style="-fx-font-size: 14px; -fx-background-color: #00509E; -fx-text-fill: white;" text="Payment" />
+        <Button fx:id="seatingButton" prefWidth="120" style="-fx-font-size: 14px; -fx-background-color: #00509E; -fx-text-fill: white;" text="Seating" />
+    </HBox>
+    <Button fx:id="logoutButton" prefWidth="120" style="-fx-font-size: 14px; -fx-background-color: #009688; -fx-text-fill: white;" text="Logout" />
+</VBox>
