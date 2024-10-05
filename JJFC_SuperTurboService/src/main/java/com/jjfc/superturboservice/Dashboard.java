@@ -11,7 +11,7 @@ public class Dashboard extends Application {
     @Override
     public void start(Stage primaryStage) {
         try {
-            // Load the FXML file
+            // Loading the FXML file
             Parent root = FXMLLoader.load(getClass().getResource("/fxml/dashboard.fxml"));
             primaryStage.setTitle("JJFC Super Turbo Service - com.jjfc.superturboservice.Dashboard");
             primaryStage.setScene(new Scene(root, 800, 600));
